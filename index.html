@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="container">
+        <h1>password Generator</h1>
+        <h2>Random password</h2>
+        <div class="line"></div>
+        <div class="box">
+            <input type="text" placeholder="Password" id="password" >
+            <i onclick="copyPassword()" class="material-symbols-outlined">
+                content_copy
+            </i>
+        </div>
+        <div class="box2">
+            <button onclick="password_Generator()">
+                <h3>password Generator</h3>
+                <i class="material-symbols-outlined">
+                    offline_bolt
+                </i>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

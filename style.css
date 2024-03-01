@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(9, 29, 65);
+}
+
+.container h1{
+    color: white;
+    margin-bottom: 10%;
+}
+
+.container h2{
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 10%;
+}
+
+.box{
+    width: 30rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.box input{
+    width: 27rem;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0px 5px 15px;
+    border: none;
+    outline: none;
+    cursor: progress;
+}
+
+.box i{
+    cursor: pointer;
+}
+
+.box i:hover{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.line{
+    background-color: yellow;
+    width: 50%;
+    height: 5px;
+    margin: -40px 0px 5% 25%;
+}
+
+.box2{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    padding: 10px 0px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box2 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+}
+
+.box2 button h3{
+    color: white;
+    font-weight: bold;
+    padding-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.box2 button i{
+    color: rgb(4, 249, 0);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.box2:hover{
+    background-color: blue;
+}
